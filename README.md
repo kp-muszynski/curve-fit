@@ -30,7 +30,7 @@ In the example below, weight equal to 7 means that 7 latest periods will be take
 
 Link_plot function performs curve fitting and returns two items:
 - plot with age-to-age factors and fitted curves,
-- table with tails and R squared per curve.
+- table with tail and R squared per curve.
 
 It has three arguments:
 - vect, which is a final choice of factors for curve fitting - the user has an ability to exclude certain factors (e.g. outliers) in the interface,
