@@ -1,6 +1,6 @@
 # Curve fit and tail calculation
 
-The purpose of this mini project was to create a shiny app, that calculates age-to-age factors based on cumulative triangles, fits three curves to them with visualization and returns tails with fully reactive output. 
+The purpose of this mini project was to create a shiny app, that calculates age-to-age factors based on cumulative triangles, fits three curves to them with visualization and returns tails, having fully reactive output. 
 
 ## Input and libraries
 
@@ -22,7 +22,7 @@ library(DT)
 
 ## Code
 
-Firstly, a customized function (ata_weight), that calculates age-to-age factors, is introduced. The user can choose to use all or less periods from the triangle, that's why ata function from ChainLadder package was not an option. The idea behind weights is that the oldest periods might not fit to current business and conditions. Additionally, for technical purposes, missing, infinite or NaN factros are replaced by 1.
+Firstly, a customized function (ata_weight), that calculates age-to-age factors, is introduced. The user can choose to use all or less periods from the triangle, that's why ata function from ChainLadder package was not an option. The idea behind weights is that the oldest periods might not fit to current business and conditions. Additionally, for technical purposes, missing, infinite or NaN factors are replaced by 1.
 
 In the example below, weight equal to 7 means that 7 latest periods will be taken into account. So in the calculation of factor 0-1, first two rows of the triangle will be excluded (blue), in factor 1-2 only first row (red) and none for the rest:
 
