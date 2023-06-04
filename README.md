@@ -1,6 +1,6 @@
 # Curve fit and tail calculation
 
-The purpose of this mini project was to create a shiny app, that calculates age-to-age factors based on cumulative triangles, fits three curves to them with visualization and returns tails, having fully reactive output. 
+The purpose of this mini project was to create a shiny app with RStudio, that calculates age-to-age factors based on cumulative triangles, fits three curves to them with visualization and returns tails, having fully reactive output. 
 
 ## Input and libraries
 
