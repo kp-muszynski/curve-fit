@@ -6,7 +6,7 @@ The purpose of this mini project was to create a shiny app, that calculates age-
 
 The program gives a choice between two example cumulative triangles:
 - RAA_triangle, taken from ChainLadder package,
-- Sample_triangle, loaded from *data_file.txt* file.
+- Sample_triangle, loaded from *data_file.txt*.
 
 The Sample_triangle data is based on gross claims paid in LoB 8 (Third party liability insurance) in Poland between 2003 and 2017 [Source](https://www.knf.gov.pl/?articleId=65250&p_id=18). The values are displayed in thousands PLN.
 
