@@ -64,7 +64,7 @@ Changing weights affects age-to-age factors shown on the right side panel. Each 
 Last input is number of future periods, that influences the tail itself.
 
 ### Plot pane
-The graph (as well as Results pane) is refreshed every time weights, future periods or age-to-age factors change, which makes the analysis easy and user friendly (in real life cases it is time consuming to find the right combination of tail and R squared, as data isn't perfect and results have to be reasonable, also to the auditor).
+The graph (as well as Results pane) is refreshed every time triangle, weights, future periods or age-to-age factors change, which makes the analysis easy and user friendly (in real life cases it is time consuming to find the right combination of tail and R squared, as data isn't perfect and results have to be reasonable, also to the auditor).
 In the example below, first plot corresponds to Sample_triangle with initial parameters, while second exludes the last factor (outlier), which significantly increased the R squared.
 
 ![plot](Plot.png)
