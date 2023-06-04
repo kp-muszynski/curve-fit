@@ -49,9 +49,9 @@ exp_mod<-lm(log(z-1)~y) # Exponential
 wib_mod<-lm(log(-log(-(z^(-1)-1)))~log(y)) # Weibull
 pwr_mod<-lm(log(log(z))~y) # Power
 ```
-In case there are factors <= 1 (which could happen if e.g. claim was shown incorrectly for some time under LoB 8), they are excluded from vect, as the fitting would fail.
+In case there are factors <= 1 (which could happen if e.g. claim had been shown incorrectly for some time under LoB 8), they are excluded from vect, as the fitting would fail.
 
-Finally, at the end of *curve-fit.R* program, runApp function is executed with current directory, in which *ui.R* and *server.R* files are stored.
+Finally, at the end of *curve-fit.R* program, runApp function is executed with current directory (as argument), in which *ui.R* and *server.R* files are stored.
 
 
 ## Interface
