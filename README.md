@@ -1,6 +1,6 @@
 # Curve fit and tail calculation
 
-The purpose of this mini project was to create a shiny app, that calculates age-to-age factors based on cumulative triangles, fits three curves to them with visualization and returns the tails with fully reactive output. 
+The purpose of this mini project was to create a shiny app, that calculates age-to-age factors based on cumulative triangles, fits three curves to them with visualization and returns tails with fully reactive output. 
 
 ## Input and libraries
 
@@ -8,7 +8,7 @@ The program gives a choice between two example cumulative triangles:
 - RAA_triangle, taken from ChainLadder package,
 - Sample_triangle, loaded from *data_file.txt* file.
 
-The Sample_triangle data is based on gross claims paid in LoB 8 (Third party liability insurance) in Poland between 2003 and 2017 [Source](https://www.knf.gov.pl/?articleId=65250&p_id=18). The values are diplsayed in thousand PLN.
+The Sample_triangle data is based on gross claims paid in LoB 8 (Third party liability insurance) in Poland between 2003 and 2017 [Source](https://www.knf.gov.pl/?articleId=65250&p_id=18). The values are displayed in thousands PLN.
 
 The following libraries are necessary:
 ```
